@@ -35,7 +35,7 @@ function App() {
             <p id="quote">{quote}</p>
             <div className="btns">
                 <button onClick={randomQuote} className="btn">Random quote</button>
-                <button onClick={() => randomAuthorQuote("marx")} className="btn">Marx quote</button>
+                <button onClick={() => randomAuthorQuote("marx")} className="btn">Marx/Engels quote</button>
                 <button onClick={() => randomAuthorQuote("lenin")} className="btn">Lenin quote</button>
                 <button onClick={() => randomAuthorQuote("trotsky")} className="btn">Trotsky quote</button>
                 <button onClick={() => randomAuthorQuote("mao")} className="btn">Mao quote</button>
